@@ -1,0 +1,7 @@
+{
+  "name": "stepper",
+  "author": "YSH",
+  "license": "MIT",
+  "version": "0.0.10",
+  "description": "A simple library for step motor"
+}
