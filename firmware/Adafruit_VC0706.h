@@ -16,8 +16,7 @@
 
 
 #if ARDUINO >= 100
- #include "SoftwareSerial.h"
-#else
+ #include "Arduino.h"
  #include "SoftwareSerial.h"
 #endif
 
