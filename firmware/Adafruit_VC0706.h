@@ -16,10 +16,8 @@
 
 
 #if ARDUINO >= 100
- #include "Arduino.h"
  #include "SoftwareSerial.h"
 #else
- #include "Arduino.h"
  #include "NewSoftSerial.h"
 #endif
 
