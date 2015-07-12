@@ -15,7 +15,13 @@
  ****************************************************/
 
 
-
+#if ARDUINO >= 100
+ #include "Arduino.h"
+ #include "SoftwareSerial.h"
+#else
+ #include "WProgram.h"
+ #include "NewSoftSerial.h"
+#endif
 
 #define VC0706_RESET  0x26
 #define VC0706_GEN_VERSION 0x11
