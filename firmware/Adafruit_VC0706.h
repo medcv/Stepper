@@ -19,7 +19,7 @@
  #include "Arduino.h"
  #include "SoftwareSerial.h"
 #else
- #include "WProgram.h"
+ #include "Arduino.h"
  #include "NewSoftSerial.h"
 #endif
 
