@@ -17,7 +17,6 @@
 
 #if ARDUINO >= 100
  #include "Arduino.h"
- #include "SoftwareSerial.h"
 #endif
 
 #define VC0706_RESET  0x26
